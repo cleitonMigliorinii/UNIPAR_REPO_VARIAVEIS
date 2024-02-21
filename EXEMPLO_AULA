@@ -1,0 +1,33 @@
+// Online Java Compiler
+// Use this editor to write, compile and run your Java code online
+
+class HelloWorld {
+    
+
+    public static void main(String[] args) {
+        
+        String nome;
+        String sobrenome = "Migliorini";
+        float valor = 1.2f;
+        int idade = 10;
+        Integer ano = 50;
+        double peso = 80.5;
+        boolean confirma = true;
+        char sexo = 'M';
+        
+        Integer soma;
+        
+        nome = "Joao";
+        
+        System.out.println("Cleiton");
+        System.out.println(nome + sobrenome);
+        System.out.println(idade);
+        System.out.println("Sua idade eh : " + idade);
+      
+        soma = 10 + 10;
+        System.out.println("Soma e " + soma);
+      
+    }
+    
+   
+}
